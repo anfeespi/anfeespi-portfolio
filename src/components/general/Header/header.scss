@@ -62,6 +62,9 @@
         background-color: $LightNavy;
         height: 100%;
         position: relative;
+        // .on-top sets left: 0, and when both left and right are set, left
+        // wins and pins the panel on screen — left: auto lets right work again
+        left: auto;
         right: -625px;
         margin-left: auto;
         font-family: $CodeFont;
