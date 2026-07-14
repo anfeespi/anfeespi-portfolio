@@ -62,11 +62,11 @@ export default function Header() {
             </a>
           </li>
         </ul>
-        <div className="menu-wrapper">
-          <div
-            className={`hamburger-menu${responsiveMenuVisible ? ' animate' : ''}`}
-            onClick={() => setResponsiveMenuVisible(!responsiveMenuVisible)}
-          ></div>
+        <div
+          className="menu-wrapper"
+          onClick={() => setResponsiveMenuVisible(!responsiveMenuVisible)}
+        >
+          <div className={`hamburger-menu${responsiveMenuVisible ? ' animate' : ''}`}></div>
         </div>
         <div
           className="menu-responsive"
