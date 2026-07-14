@@ -1,0 +1,55 @@
+// Minimal port of the Owl Carousel prebuilt theme styles used by the
+// Angular version (owl.carousel.min.css + owl.theme.default.min.css).
+.owl-carousel-o {
+    display: block;
+
+    .owl-stage-outer {
+        position: relative;
+        overflow: hidden;
+        border-radius: 3px;
+    }
+
+    .owl-stage {
+        display: flex;
+        transition: transform 900ms ease;
+    }
+
+    .owl-item {
+        flex: 0 0 100%;
+        min-width: 0;
+        user-select: none;
+    }
+}
+
+.owl-theme {
+    .owl-dots {
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        margin-top: 10px;
+
+        .owl-dot {
+            display: inline-block;
+            zoom: 1;
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+
+            span {
+                width: 10px;
+                height: 10px;
+                margin: 5px 7px;
+                background: #ffffff33;
+                display: block;
+                -webkit-backface-visibility: visible;
+                transition: opacity .2s ease;
+                border-radius: 30px;
+            }
+
+            &.active span,
+            &:hover span {
+                background-color: white !important;
+            }
+        }
+    }
+}

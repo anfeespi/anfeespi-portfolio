@@ -1,0 +1,17 @@
+{
+  "name": "anfeespi-portfolio",
+  "short_name": "anfeespi-portfolio",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "assets/images/me/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable any"
+    }
+  ]
+}
