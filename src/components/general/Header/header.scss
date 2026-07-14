@@ -146,6 +146,9 @@
         width: 36px;
         height: 60px;
         cursor: pointer;
+        // position is required for z-index to take effect: keeps the
+        // hamburger/close button above .menu-responsive (z-index: 10)
+        position: relative;
         z-index: 11;
 
         .hamburger-menu,

@@ -71,6 +71,11 @@ export default function Header() {
         <div
           className="menu-responsive"
           style={{ pointerEvents: !responsiveMenuVisible ? 'none' : undefined }}
+          onClick={(e) => {
+            if (e.target === e.currentTarget) {
+              setResponsiveMenuVisible(false)
+            }
+          }}
         >
           <aside
             className={`on-top${responsiveMenuVisible ? ' aside-show' : ''}${pageYPosition > 0 ? ' nav-shadow' : ''}`}
@@ -93,7 +98,7 @@ export default function Header() {
                   </a>
                 </li>
                 <li>
-                  <a onClick={() => scroll('proyects')}>
+                  <a onClick={() => scroll('contact')}>
                     <span>04. </span> Contact
                   </a>
                 </li>
