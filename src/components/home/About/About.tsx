@@ -64,7 +64,7 @@ export default function About() {
                   onClick={() => sendAnalyticEvent('click_image', 'about', 'image')}
                   width="300"
                   height="400"
-                  src="/assets/images/me/anfeespi.jpg"
+                  src="assets/images/me/anfeespi.jpg"
                   alt="Git User"
                 />
               </div>

@@ -4,10 +4,10 @@ import './project.scss'
 const Projects = [
   {
     imgs: [
-      '/assets/images/puretouch/1.png',
-      '/assets/images/puretouch/2.png',
-      '/assets/images/puretouch/3.png',
-      '/assets/images/puretouch/4.png'
+      'assets/images/puretouch/1.png',
+      'assets/images/puretouch/2.png',
+      'assets/images/puretouch/3.png',
+      'assets/images/puretouch/4.png'
     ],
     Title: 'Pure Touch',
     Description:
@@ -17,15 +17,15 @@ const Projects = [
   },
   {
     imgs: [
-      '/assets/images/forestbet/1.png',
-      '/assets/images/forestbet/2.png',
-      '/assets/images/forestbet/3.png',
-      '/assets/images/forestbet/4.png',
-      '/assets/images/forestbet/5.png',
-      '/assets/images/forestbet/6.png',
-      '/assets/images/forestbet/7.png',
-      '/assets/images/forestbet/8.png',
-      '/assets/images/forestbet/9.png'
+      'assets/images/forestbet/1.png',
+      'assets/images/forestbet/2.png',
+      'assets/images/forestbet/3.png',
+      'assets/images/forestbet/4.png',
+      'assets/images/forestbet/5.png',
+      'assets/images/forestbet/6.png',
+      'assets/images/forestbet/7.png',
+      'assets/images/forestbet/8.png',
+      'assets/images/forestbet/9.png'
     ],
     Title: 'ForestBet',
     Description:
@@ -35,11 +35,11 @@ const Projects = [
   },
   {
     imgs: [
-      '/assets/images/pokedex/1.png',
-      '/assets/images/pokedex/2.png',
-      '/assets/images/pokedex/3.png',
-      '/assets/images/pokedex/4.png',
-      '/assets/images/pokedex/5.png'
+      'assets/images/pokedex/1.png',
+      'assets/images/pokedex/2.png',
+      'assets/images/pokedex/3.png',
+      'assets/images/pokedex/4.png',
+      'assets/images/pokedex/5.png'
     ],
     Title: 'Pokedex Gen V',
     Description:
@@ -49,13 +49,13 @@ const Projects = [
   },
   {
     imgs: [
-      '/assets/images/connect4/1.png',
-      '/assets/images/connect4/2.png',
-      '/assets/images/connect4/3.png',
-      '/assets/images/connect4/4.png',
-      '/assets/images/connect4/5.png',
-      '/assets/images/connect4/6.png',
-      '/assets/images/connect4/7.png'
+      'assets/images/connect4/1.png',
+      'assets/images/connect4/2.png',
+      'assets/images/connect4/3.png',
+      'assets/images/connect4/4.png',
+      'assets/images/connect4/5.png',
+      'assets/images/connect4/6.png',
+      'assets/images/connect4/7.png'
     ],
     Title: 'Connect 4',
     Description:
