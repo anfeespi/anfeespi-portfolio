@@ -18,6 +18,13 @@
         flex: 0 0 100%;
         min-width: 0;
         user-select: none;
+
+        // owl.carousel.min.css scales every slide image to the item width;
+        // without this, large screenshots overflow and look zoomed/cropped
+        img {
+            display: block;
+            width: 100%;
+        }
     }
 }
 
