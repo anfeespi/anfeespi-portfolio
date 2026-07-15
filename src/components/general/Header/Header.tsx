@@ -40,7 +40,7 @@ export default function Header() {
   return (
     <nav className={`navbar main-navbar on-top animate-menu${pageYPosition > 0 ? ' nav-shadow' : ''}`}>
       <div className="container">
-        <a className="navbar-brand text-light" href="/">
+        <a className="navbar-brand text-light" href={import.meta.env.BASE_URL}>
           <img src="assets/images/me/logo-nobg.png" width="45" />
         </a>
         <ul className="menu-ul nav">
