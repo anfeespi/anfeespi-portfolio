@@ -3,10 +3,31 @@ import './experience.scss'
 
 const Experiences = [
   {
-    Tab: 'Experience',
+    Tab: 'Yuno',
+    Organization: 'Yuno',
+    Title: 'Full Stack Developer',
+    Date: 'Jun 2026 - Present',
+    Description: [
+      'After finishing my internship, i moved into a full-time role, continuing the design and development of internal products, platforms and AI-Agent-based tools used by teams across the organization.',
+      'Implementation of microservices and integrations using Go, Python and TypeScript on distributed architectures.',
+      'Development of observability, monitoring and evaluation solutions to improve the performance and response quality of AI agents.'
+    ]
+  },
+  {
+    Tab: 'Yuno (Intern)',
+    Organization: 'Yuno',
+    Title: 'Full Stack Developer Intern',
+    Date: 'Jan 2026 - Jun 2026',
+    Description: [
+      'Design and development of internal products, platforms and tools used by teams across the organization, including AI-Agent-based solutions for observability, evaluation, information centralization and process optimization.',
+      'Contributed to the launch of an AI support agent that handles queries and escalates cases efficiently to the right teams.'
+    ]
+  },
+  {
+    Tab: 'Tutoring',
     Organization: 'Universidad El Bosque',
     Title: 'Programming Tutor',
-    Date: '2024',
+    Date: 'Jan 2024 - Jun 2024',
     Description: [
       'I served as a tutor in front of students from lower semesters helping with\n' +
         'topics about Programming 1 (DAO, DTO, Inheritance, Computational Logic, Project Management and\n' +
@@ -16,27 +37,27 @@ const Experiences = [
     ]
   },
   {
-    Tab: 'Education',
+    Tab: 'University',
     Organization: 'Universidad El Bosque',
     Title: 'Systems Engineer',
-    Date: '2022 - 2026 (in progress)',
+    Date: '2022 - 2026',
     Description: [
-      '- Competitive Programming Group Representation.',
-      '- Cumulative Weighted Average 4.5/5.0.'
+      'Competitive Programming Group Representation, reaching the ICPC Latin American Regional Finals (LAR 2025) — first participation for the university.',
+      'Now coaching the university competitive programming teams.',
+      'Cumulative Weighted Average 4.5/5.0.'
     ]
   },
   {
-    Tab: 'Education',
+    Tab: 'High School',
     Organization: 'Escuela Tecnológica Instituto Técnico Central',
     Title: 'Industrial Technical Bachelor in the speciality of systems and computer science',
     Date: '2016 - 2021',
     Description: [
-      '- Achievement of gold medal for academic performance (2017, 2021).',
-      '- Bronze medal for academic achievement (2020)',
-      '- Obtaining honorable mention for academic average higher than 4.0/5.0',
-      '(2016(3), 2017(4), 2018(3), 2019(3), 2020(4), 2021(4))',
-      '- Earned honors diploma for academic achievement (2017, 2020, 2021).',
-      '- Weighted average of the entire academic process higher than 4.0/5.0'
+      'Achievement of gold medal for academic performance (2017, 2021).',
+      'Bronze medal for academic achievement (2020).',
+      'Obtaining honorable mention for academic average higher than 4.0/5.0 (2016(3), 2017(4), 2018(3), 2019(3), 2020(4), 2021(4)).',
+      'Earned honors diploma for academic achievement (2017, 2020, 2021).',
+      'Weighted average of the entire academic process higher than 4.0/5.0.'
     ]
   }
 ]

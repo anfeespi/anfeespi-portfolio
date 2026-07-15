@@ -7,6 +7,12 @@
         position: relative;
         overflow: hidden;
         border-radius: 3px;
+        touch-action: pan-y;
+        cursor: grab;
+
+        &.dragging {
+            cursor: grabbing;
+        }
     }
 
     .owl-stage {

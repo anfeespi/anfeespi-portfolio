@@ -13,14 +13,16 @@ export default function Banner() {
             </div>
             <div className="banner-title">
               <h2 className="text-capitalize">Andrés Espitia.</h2>
-              <h3 className="text-capitalize">Backend developer</h3>
+              <h3 className="text-capitalize">Software Engineer</h3>
             </div>
             <div className="banner-description">
               <p className="mt-4">
-                I'm a <span className="underline"> Systems Engineering </span> student with a Technical Industrial Bachelor's degree in
-                <span className="underline"> Systems and Computing </span> and extensive experience in competitive programming. I have a broad knowledge
-                of <span className="underline"> Java, C++, Spring and React</span>, i also have knowledge of data structures, algorithms and web
-                development with emphasis on <span className="underline">Backend</span>, with experience working in Scrum and Crystal Methodology.
+                I'm a <span className="underline">Software Engineer</span> working on microservices and internal platforms
+                on distributed architectures with <span className="underline">Go, Java, Spring, TypeScript and Python</span>,
+                building solutions that range from <span className="underline">Backend</span> services
+                to <span className="underline">AI-powered tools</span>. I have extensive experience in competitive programming as
+                an <span className="underline">ICPC South America-North finalist</span>, with a strong background in
+                data structures, algorithms and web development, and experience working in Scrum methodology.
               </p>
             </div>
           </div>
