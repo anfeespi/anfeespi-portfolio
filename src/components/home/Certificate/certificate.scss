@@ -1,1 +1,8 @@
 // The Angular version had an empty certificate.component.scss — kept for parity.
+
+// Certificate images come in different dimensions (1.29 to 1.67 aspect ratio);
+// normalize them so every card has the same height.
+.certificate-img {
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+}

@@ -76,7 +76,7 @@ export default function Certificate() {
                       <h5 className="other-proyect-title mt-4">{cert.Title}</h5>
                     </div>
                     <div className="d-flex items-center justify-center">
-                      <img className="" width="100%" src={cert.image} />
+                      <img className="certificate-img" width="100%" src={cert.image} alt={cert.Title} />
                     </div>
                     <div>
                       <ul className="more-proyects-skills">
