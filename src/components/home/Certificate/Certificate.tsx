@@ -17,6 +17,11 @@ const certificates = [
     image: 'assets/images/certificates/GooglePromptingEssentials.png'
   },
   {
+    Title: 'Certificate of Achievement ICPC South America North Finals 2025 - 43rd Place',
+    Organization: ['ICPC'],
+    image: 'assets/images/certificates/2025-SA-North.png'
+  },
+  {
     Title: 'Certificate of participation ICPC Colombia 2025 - 35th Place',
     Organization: ['ICPC'],
     image: 'assets/images/certificates/2025-Place.png'
@@ -40,11 +45,6 @@ const certificates = [
     Title: 'Certificate of participation Google Kickstart',
     Organization: ['Google'],
     image: 'assets/images/certificates/Kickstart2022.png'
-  },
-  {
-    Title: 'Honor Mention',
-    Organization: ['ETITC'],
-    image: 'assets/images/certificates/HonorMention.png'
   }
 ]
 
